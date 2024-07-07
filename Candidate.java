@@ -1,5 +1,5 @@
 /**
- * @purpose: To satisfy the requirements of the 16.01 assignment.
+ * @purpose: To satisfy the requirements of the 16.04 assignment.
  * 
  * @author V. Swaminathan
  * @version 3/25/17
