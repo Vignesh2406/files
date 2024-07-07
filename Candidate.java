@@ -30,4 +30,14 @@ public class Candidate
     {
         return name;
     }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setVotes(int votes)
+    {
+        numVotes = votes;
+    }
 }
