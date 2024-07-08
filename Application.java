@@ -1,26 +1,20 @@
-package vishwanath_p1;
-
-import java.io.IOException;
-import java.io.FileNotFoundException;
-// importing file packages.
- 
+package vishwanath_p2;
 
 public class Application {
 	
-
-   public static void main(String[] args) throws IOException {
+	
+   public static void main(String[] args) {
 	   
-       DuplicateRemover abc=new DuplicateRemover(); //creating an object
-       
-       abc.remove("problem1.txt"); 
-       
-     //removing and writing new files. 
-       
-       abc.write("unique_words.txt");
+	   
+       String inFilename = "problem2.txt";
+       String outFilename = "unique_word_counts.txt";
        
        
-      
-
+       DuplicateCounter dc = new DuplicateCounter(); //creating a new object
+       
+       
+       dc.count(inFilename); //counting 	
+       dc.write(outFilename); //writing 
    }
-
 }
+
